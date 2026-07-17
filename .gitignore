@@ -1,0 +1,56 @@
+# ===== Bảo mật / thông tin nhạy cảm =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+config.ini
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== Virtual environment =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Jupyter Notebook =====
+.ipynb_checkpoints/
+
+# ===== VS Code =====
+.vscode/
+*.code-workspace
+
+# ===== Database local =====
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Data files (tùy chọn - bỏ comment nếu không muốn đẩy data lên Git) =====
+# data/raw/*
+# data/processed/*
+# !data/raw/.gitkeep
+# !data/processed/.gitkeep
+
+# ===== OS-specific =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Log files =====
+*.log
+
+# ===== Cache =====
+.cache/
+.pytest_cache/
+.mypy_cache/
