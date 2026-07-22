@@ -1,13 +1,10 @@
-# Super-store-analysis
-
-# 6 phases of data Analysis
-
-1. ASK
-
-- problems: category potential customer groups; find things unsual; find the connection among sales, quantity, discount and profits
-
-2. PREPARE
-
-- Dataset link: [www.kaggle.com/datasets/itssuru/super-store](https://www.kaggle.com/datasets/itssuru/super-store)
-
-3. PROCESS
+## This is the project to solve problems such as:
++ make prediction
++ find the connection
++ spot thing unusual
++ indentify the theme
++ catagory features
++ find the pattern
+## My exploration is in finding.md in reports folder.
+## link of my dataset: 
+https://www.kaggle.com/datasets/itssuru/super-store
