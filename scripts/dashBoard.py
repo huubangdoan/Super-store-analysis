@@ -39,12 +39,12 @@ c1, c2 = st.columns(2)
 with c1:
     sales_by_cat = df_filtered.groupby("Sub-Category")["Sales"].sum().sort_values(ascending=True).reset_index()
     fig1 = px.bar(sales_by_cat, x="Sales", y="Sub-Category", orientation="h",
-                  title="Doanh thu theo Sub-Category")
+                  title="Sub-Category Sales")
     st.plotly_chart(fig1, use_container_width=True)
 
 with c2:
     profit_by_region = df_filtered.groupby("Region")["Profit"].sum().reset_index()
-    fig2 = px.bar(profit_by_region, x="Region", y="Profit", title="Lợi nhuận theo Region",
+    fig2 = px.bar(profit_by_region, x="Region", y="Profit", title="Region Profit",
                   color="Profit", color_continuous_scale="RdYlGn")
     st.plotly_chart(fig2, use_container_width=True)
 
@@ -53,7 +53,7 @@ c3, c4 = st.columns(2)
 
 with c3:
     seg_sales = df_filtered.groupby("Segment")["Sales"].sum().reset_index()
-    fig3 = px.pie(seg_sales, names="Segment", values="Sales", title="Tỷ trọng Sales theo Segment", hole=0.4)
+    fig3 = px.pie(seg_sales, names="Segment", values="Sales", title="Sales Percentage respect to Segment", hole=0.4)
     st.plotly_chart(fig3, use_container_width=True)
 
 with c4:
