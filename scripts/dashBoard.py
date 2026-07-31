@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="Sales Dashboard", layout="wide")
-df = pd.read_csv(r"..\data\raw\SampleSuperstore.csv")
+df = pd.read_csv(r"data/raw/SampleSuperstore.csv")
 
 st.title("📊 Super Store Dashboard")
 

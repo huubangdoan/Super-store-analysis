@@ -60,7 +60,7 @@ See detailed insights and observations in [`reports/findings.md`](reports/findin
 - Plotly Express
 
 ## 🚀 Live Demo
-*(Add link after deploying to Streamlit Community Cloud, e.g. `https://<app-name>.streamlit.app`)*
+`https://super-store-dashboard1.streamlit.app/`
 
 ## 📄 License
 The dataset belongs to the original author on Kaggle. Code in this repo is intended for learning/portfolio purposes.
