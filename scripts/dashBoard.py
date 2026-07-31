@@ -62,6 +62,7 @@ with c4:
     st.plotly_chart(fig4, use_container_width=True)
 
 # --- Table: Top States ---
-st.subheader("Top 10 State theo Sales")
-top_states = df_filtered.groupby("State")["Sales"].sum().sort_values(ascending=False).head(10).reset_index()
+st.subheader("Top 10 State respect to Sales")
+top_states = round(df_filtered.groupby("State")["Sales"].sum().sort_values(ascending=False),2).head(10).reset_index()
+top_states.index = range(1, len(top_states) + 1) 
 st.dataframe(top_states, use_container_width=True)
