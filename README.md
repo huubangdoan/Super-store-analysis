@@ -1,7 +1,4 @@
 ## This is the project to solve problems such as:
-+ make prediction
-+ find the connection
-+ spot thing unusual
 + indentify the theme# 📊 Super Store Dashboard
 
 A sales & profit analytics dashboard built with **Streamlit** and **Plotly**, based on the Superstore dataset.
@@ -66,6 +63,5 @@ See detailed insights and observations in [`reports/findings.md`](reports/findin
 The dataset belongs to the original author on Kaggle. Code in this repo is intended for learning/portfolio purposes.
 + catagory features
 + find the pattern
-## My exploration is in finding.md in reports folder.
-## link of my dataset: 
-https://www.kaggle.com/datasets/itssuru/super-store
+
+
